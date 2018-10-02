@@ -1,5 +1,5 @@
 # Copyright (C) 2018 Bailey Defino
-# <https://hiten2.github.io>
+# <https://bdefino.github.io>
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -24,7 +24,7 @@ sys.path.append(os.path.realpath(__file__))
 
 import withfile
 
-__doc__ = """a string-based database"""
+__doc__ = "a string-based database"
 
 def _as_list(var):
     """return a variable as a list, but don't split strings"""
