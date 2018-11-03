@@ -13,14 +13,14 @@
 
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
+__package__ = __name__
+
 import csv
 import fcntl
 import hashlib
 import os
 import StringIO
 import sys
-
-sys.path.append(os.path.realpath(__file__))
 
 import withfile
 
